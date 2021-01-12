@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e5e5e5;
+}
+
+
+.baner {
+    background-image: url("../images/baner.jpeg");
+    margin-top: 0;
+    border: 10px solid #1b4332;
+    width: 100%;
+    background-position: center;
+
+
+}
+
+#city {
+    margin: 0 auto;
+    align-self: center;
+    align-items: center;
+    width: 15rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.search {
+    margin: 0 auto;
+    width: 400px;
+    align-items: center;
+}
+
+#btn {
+    margin: 0 auto;
+    align-items: center;
+    color: black;
+    background-color: #FFBA08;
+    width: 130px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+
+#btn:hover {
+    background-color: #ffd500;
+    width: 120px;
+
+}
+
+.show-items {
+    width: 400px;
+    margin: 30px 30px;
+    display: inline-block;
+    margin: 20px 50px;
+
+
+}
+
+#details {
+
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #ef8354;
+    width: 400px;
+    color: #00296b;
+}
+
+#image {
+
+
+    border: 1px solid #588157;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+
+.main {
+
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    align-items: center;
+
+}
+
+#link:hover {
+    color: darkslategray;
+    font-size: 1rem;
+}
+
+#price {
+    color: crimson;
+    display: inline;
+}
+
+
+.header {
+    display: flex;
+    align-items: flex-start;
+
+    margin: 20px 30px;
+    padding: 20px 20px;
+
+    font-size: 3rem;
+
+}
+
+a {
+
+    color: #588157;
+}
+
+a:hover {
+    font-size: 2.5rem;
+    color: #fca311;
+}
+
+.main-div-fav {
+    display: inline-block;
+    margin: 20px 20px;
+}
